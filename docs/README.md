@@ -11,6 +11,10 @@ A simple, lightweight desktop widget for diabetics to monitor their Dexcom G7 gl
 
 This tool was created by a diabetic, for diabetics. It provides a simple way to keep your Dexcom G7 glucose readings visible on your desktop without having to constantly check your phone or Dexcom receiver.
 
+Here I have it on the top bar of VS Code.
+
+<img width="442" height="196" alt="image" src="https://github.com/user-attachments/assets/128d45b3-5a56-4905-a7a3-b777b16345c3" />
+
 ## ⚠️ Important Medical Disclaimer
 
 **This software is for informational purposes only and is not a medical device.** 
