@@ -22,7 +22,7 @@ def clean_build():
                 print(f"  Warning: Could not remove {dir_name}/ (files may be in use)")
     
     # Remove spec file
-    spec_file = 'cgm_simple_widget.spec'
+    spec_file = '../assets/cgm_simple_widget.spec'
     if os.path.exists(spec_file):
         os.remove(spec_file)
         print(f"  Removed {spec_file}")
@@ -58,8 +58,8 @@ def create_icon():
         draw.text((x, y), text, fill=(255, 255, 255, 255), font=font)
         
         # Save as ICO file
-        img.save('cgm_icon.ico', format='ICO', sizes=[(64, 64), (32, 32), (16, 16)])
-        print("  Created cgm_icon.ico")
+        img.save('../assets/cgm_icon.ico', format='ICO', sizes=[(64, 64), (32, 32), (16, 16)])
+        print("  Created ../assets/cgm_icon.ico")
         return True
         
     except ImportError:
@@ -82,11 +82,11 @@ def build_executable():
     ]
     
     # Add icon if it exists
-    if os.path.exists('cgm_icon.ico'):
-        cmd.extend(['--icon=cgm_icon.ico'])
+    if os.path.exists('../assets/cgm_icon.ico'):
+        cmd.extend(['--icon=../assets/cgm_icon.ico'])
     
     # Add the main script
-    cmd.append('cgm_simple_widget.py')
+    cmd.append('../src/cgm_simple_widget.py')
     
     # Run PyInstaller
     try:

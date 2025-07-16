@@ -38,7 +38,7 @@ class CGMWidget:
         self.update_interval = 60  # seconds
         self.running = False
         self.icon = None
-        self.config_file = "cgm_config.json"
+        self.config_file = "../assets/cgm_config.json"
         self.config = self.load_config()
         
         # Set default unit preference to mmol/L

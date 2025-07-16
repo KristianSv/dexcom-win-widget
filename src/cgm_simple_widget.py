@@ -29,7 +29,7 @@ class CGMSimpleWidget:
         self.last_update = None
         self.update_interval = 60
         self.running = False
-        self.config_file = "cgm_config.json"
+        self.config_file = "../assets/cgm_config.json"
         self.config = self.load_config()
         
         if 'unit_preference' not in self.config:

@@ -6,11 +6,11 @@ echo.
 echo Cleaning previous build...
 if exist dist rmdir /s /q dist
 if exist build rmdir /s /q build
-if exist *.spec del *.spec
+if exist ..\assets\*.spec del ..\assets\*.spec
 
 echo.
 echo Building executable...
-python -m PyInstaller --onefile --windowed --name=CGM_Simple_Widget cgm_simple_widget.py
+python -m PyInstaller --onefile --windowed --name=CGM_Simple_Widget --icon=..\assets\cgm_icon.ico ..\src\cgm_simple_widget.py
 
 echo.
 if exist dist\CGM_Simple_Widget.exe (
