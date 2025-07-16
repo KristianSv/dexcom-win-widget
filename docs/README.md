@@ -1,4 +1,4 @@
-# Dexcom Windows Widget 🩸
+# Dexcom G7 Windows Widget 🩸
 
 A simple, lightweight desktop widget for diabetics to monitor their Dexcom G7 glucose readings directly on their Windows PC.
 
@@ -41,9 +41,7 @@ Here I have it on the top bar of VS Code.
 
 ### Dexcom Setup
 1. **Dexcom G7** with the official Dexcom app installed
-2. **Dexcom Share enabled** - Follow [Dexcom's instructions](https://provider.dexcom.com/education-research/cgm-education-use/videos/setting-dexcom-share-and-follow)
-3. **At least one follower** configured (required for Share API access)
-4. **Email-based account** - Phone number logins may not work
+2. **Email-based account** - Phone number logins may not work
 
 ### System Requirements
 - **Windows 10/11**
