@@ -23,13 +23,13 @@ Before using this tool, make sure:
 
 1. **Your Dexcom G7 is working** - You can see readings in your phone app
 2. **Dexcom Share is turned on** - This lets the tool get your readings
-3. **You have a follower set up** - Even if it's just yourself with a different email
 
 #### How to Enable Dexcom Share:
 1. Open your Dexcom app on your phone
 2. Go to Settings → Share
 3. Turn on Share
-4. Add a follower (can be your own email address)
+
+**Note**: You don't need to add any followers when using your own Dexcom account.
 
 ### Step 2: Download and Run
 
@@ -70,7 +70,7 @@ A small window will appear showing your glucose reading with:
 1. Try logging into the Dexcom website first to make sure your password works
 2. Make sure you're using your email address, not phone number
 3. Check that you selected the right region
-4. Make sure Dexcom Share is enabled
+4. Make sure Dexcom Share is enabled in your Dexcom app
 
 ### No Glucose Data Showing
 **Problem**: Widget shows "No Data" or old readings
@@ -78,7 +78,7 @@ A small window will appear showing your glucose reading with:
 **Solutions**:
 1. Check that your Dexcom sensor is working (look at your phone app)
 2. Make sure you have recent readings (within the last few hours)
-3. Verify Dexcom Share is still enabled
+3. Verify Dexcom Share is still enabled in your Dexcom app
 4. Try the "Refresh" option in the right-click menu
 
 ### Widget Disappeared

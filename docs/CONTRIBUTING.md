@@ -37,7 +37,7 @@ If you encounter bugs or have feature requests:
 
 ```bash
 # Clone your fork
-git clone https://github.com/yourusername/dexcom-win-widget.git
+git clone https://github.com/KristianSv/dexcom-win-widget.git
 cd dexcom-win-widget
 
 # Install dependencies

@@ -42,8 +42,9 @@ Here I have it on the top bar of VS Code.
 ### Dexcom Setup
 1. **Dexcom G7** with the official Dexcom app installed
 2. **Dexcom Share enabled** - Follow [Dexcom's instructions](https://provider.dexcom.com/education-research/cgm-education-use/videos/setting-dexcom-share-and-follow)
-3. **At least one follower** configured (required for Share API access)
-4. **Email-based account** - Phone number logins may not work
+3. **Email-based account** - Phone number logins may not work
+
+**Note**: No followers are required when using your own Dexcom account that's signed into the G7 app.
 
 ### System Requirements
 - **Windows 10/11**
@@ -64,7 +65,7 @@ Here I have it on the top bar of VS Code.
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/dexcom-win-widget.git
+   git clone https://github.com/KristianSv/dexcom-win-widget.git
    cd dexcom-win-widget
    ```
 
@@ -120,7 +121,7 @@ python -m PyInstaller --onefile --windowed cgm_simple_widget.py
 
 **"Invalid Password" Error**:
 - Verify credentials on [Dexcom website](https://uam1.dexcom.com) (US) or [uam2.dexcom.com](https://uam2.dexcom.com) (Outside US)
-- Ensure Dexcom Share is enabled with at least one follower
+- Ensure Dexcom Share is enabled in your Dexcom app
 - Try using your account ID instead of username
 
 **No Glucose Data**:
