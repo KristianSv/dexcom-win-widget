@@ -158,6 +158,16 @@ This is an unofficial tool that uses the Dexcom Share API. It is not affiliated 
 - Created for the diabetes community
 - Inspired by the need for accessible glucose monitoring
 
+## 🤖 Development Credits
+
+This project was developed through an AI-human collaboration:
+
+- **AI Development**: The Python code was written almost exclusively by **Roo Code** using the **Claude Sonnet 4** model
+- **Project Lead & Planning**: **Kristian** (specializing in .NET and TypeScript) provided the vision, requirements, testing, and close collaboration throughout the development process
+- **Collaboration Model**: This represents a successful example of AI-assisted development where domain expertise and AI capabilities combined to create a useful tool for the diabetes community
+
+The project demonstrates how AI can help bring ideas to life even when the project lead's primary expertise lies in different technologies (.NET/TypeScript vs Python).
+
 ---
 
 **Remember**: This tool is meant to supplement, not replace, proper diabetes management. Always consult with your healthcare provider for medical decisions.
